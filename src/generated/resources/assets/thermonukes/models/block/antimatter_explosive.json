@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "thermonukes:block/antimatter_explosive_end",
+    "side": "thermonukes:block/antimatter_explosive_side"
+  }
+}

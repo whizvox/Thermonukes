@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "thermonukes:item/geiger_counter/none",
+      "predicate": {
+        "thermonukes:reading": 0.0
+      }
+    },
+    {
+      "model": "thermonukes:item/geiger_counter/low",
+      "predicate": {
+        "thermonukes:reading": 0.25
+      }
+    },
+    {
+      "model": "thermonukes:item/geiger_counter/warm",
+      "predicate": {
+        "thermonukes:reading": 0.5
+      }
+    },
+    {
+      "model": "thermonukes:item/geiger_counter/hot",
+      "predicate": {
+        "thermonukes:reading": 0.75
+      }
+    },
+    {
+      "model": "thermonukes:item/geiger_counter/extreme",
+      "predicate": {
+        "thermonukes:reading": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "thermonukes:item/geiger_counter/none"
+  }
+}

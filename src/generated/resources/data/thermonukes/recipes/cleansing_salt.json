@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "thermonukes:salty_mixture_tube"
+  },
+  "result": "thermonukes:cleansing_salt"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "running=false": {
+      "model": "thermonukes:block/air_scrubber_off"
+    },
+    "running=true": {
+      "model": "thermonukes:block/air_scrubber_on"
+    }
+  }
+}

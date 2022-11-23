@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "thermonukes:red_matter_explosive"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "thermonukes:block/air_scrubber_base",
+  "textures": {
+    "side": "thermonukes:block/air_scrubber_side_on",
+    "top": "thermonukes:block/air_scrubber_top_on"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "antimatter_explosive_detonation": {
+    "sounds": [
+      "thermonukes:antimatter_explosive_detonation"
+    ],
+    "subtitle": "subtitles.thermonukes.antimatter_explosive_detonation"
+  },
+  "black_hole.disappear": {
+    "sounds": [
+      "thermonukes:black_hole_disappear"
+    ],
+    "subtitle": "subtitles.thermonukes.black_hole.disappear"
+  },
+  "black_hole.wooshing": {
+    "sounds": [
+      "thermonukes:black_hole_wooshing"
+    ],
+    "subtitle": "subtitles.thermonukes.black_hole.wooshing"
+  },
+  "geiger_counter.burst": {
+    "sounds": [
+      "thermonukes:geiger_counter/burst_0",
+      "thermonukes:geiger_counter/burst_1",
+      "thermonukes:geiger_counter/burst_2"
+    ],
+    "subtitle": "subtitles.thermonukes.geiger_counter.burst"
+  },
+  "geiger_counter.click": {
+    "sounds": [
+      "thermonukes:geiger_counter/click"
+    ],
+    "subtitle": "subtitles.thermonukes.geiger_counter.click"
+  },
+  "geiger_counter.extreme_burst": {
+    "sounds": [
+      "thermonukes:geiger_counter/extreme_burst_0",
+      "thermonukes:geiger_counter/extreme_burst_1",
+      "thermonukes:geiger_counter/extreme_burst_2"
+    ],
+    "subtitle": "subtitles.thermonukes.geiger_counter.extreme_burst"
+  },
+  "geiger_counter.fast_burst": {
+    "sounds": [
+      "thermonukes:geiger_counter/fast_burst_0",
+      "thermonukes:geiger_counter/fast_burst_1",
+      "thermonukes:geiger_counter/fast_burst_2"
+    ],
+    "subtitle": "subtitles.thermonukes.geiger_counter.fast_burst"
+  },
+  "geiger_counter.mode_change": {
+    "sounds": [
+      "thermonukes:geiger_counter/mode_change"
+    ]
+  },
+  "machine_pumping": {
+    "sounds": [
+      "thermonukes:machine_pumping"
+    ],
+    "subtitle": "subtitles.thermonukes.machine_pumping"
+  },
+  "water_swirl": {
+    "sounds": [
+      "thermonukes:water_swirl"
+    ],
+    "subtitle": "subtitles.thermonukes.water_swirl"
+  }
+}

@@ -1,0 +1,22 @@
+Credits for all Third-Party Assets used in Thermonukes
+------------------------------------------------------
+
+antimatter_explosive_detonation.ogg:
+https://freesound.org/people/Teh_Bucket/sounds/518739/
+https://freesound.org/people/DrMrSir/sounds/529554/
+https://freesound.org/people/snakebarney/sounds/138101/
+
+black_hole_wooshing.ogg, black_hole_disappear.ogg:
+https://freesound.org/people/InspectorJ/sounds/376415/
+
+geiger_counter/*.ogg:
+https://freesound.org/people/cookies+policy/sounds/555919/
+https://freesound.org/people/cookies+policy/sounds/555928/
+https://freesound.org/people/cookies+policy/sounds/555933/
+https://freesound.org/people/pan14/sounds/263133/
+
+water_swirl.ogg:
+https://freesound.org/people/InspectorJ/sounds/398713/
+
+machine_pumping.off:
+https://freesound.org/people/Anton/sounds/105291/

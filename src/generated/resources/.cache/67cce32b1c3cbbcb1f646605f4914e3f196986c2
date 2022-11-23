@@ -1,0 +1,5 @@
+// 1.19.2	2022-11-19T02:08:19.1422857	LootTables
+aeb9199f86bcde4088a1eb39ecba400a27f1267d data/thermonukes/loot_tables/blocks/air_scrubber.json
+f0276ce652644c4aabb6d424fe6e73cdb6d923fc data/thermonukes/loot_tables/blocks/antimatter_explosive.json
+6293030ae1698f45f3ea46935d56fb5346c72425 data/thermonukes/loot_tables/blocks/nuke.json
+017f9bd138f78f3b2abd762b3c473e17fce0c5ee data/thermonukes/loot_tables/blocks/red_matter_explosive.json

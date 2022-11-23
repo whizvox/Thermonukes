@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+#issueTrackerURL="http://my.issue.tracker/"
+[[mods]]
+modId = "thermonukes"
+version = "${file.jarVersion}"
+displayName = "Thermonukes"
+#updateJSONURL="http://myurl.me/"
+#displayURL="http://example.com/"
+#logoFile="thermonukes.png"
+#credits="Thanks for this example mod goes to Java"
+authors = "whizvox" #optional
+description = '''
+Who doesn't like the big kaboom?
+'''
+[[dependencies.thermonukes]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.thermonukes]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,1.20)"
+ordering = "NONE"
+side = "BOTH"
