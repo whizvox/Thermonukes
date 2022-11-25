@@ -44,12 +44,15 @@ public class ThermonukesLanguageProvider extends LanguageProvider {
     addBlock(ThermonukesBlocks.AIR_SCRUBBER, "Air Scrubber");
     addItem(ThermonukesItems.GEIGER_COUNTER, "Geiger Counter");
     addItem(ThermonukesItems.SALTY_MIXTURE_TUBE, "Tube of a Salty Mixture");
+    addItem(ThermonukesItems.ANTI_RADIATIVE_FABRIC_SHEET, "Sheet of Anti-Radiative Fabric");
+    addItem(ThermonukesItems.RUBBER_SHEET, "Rubber Sheet");
     addItem(ThermonukesItems.CLEANSING_SALT, "Cleansing Salt");
     addItem(ThermonukesItems.CLEANSING_WATER_BUCKET, "Bucket of Cleansing Water");
-    addItem(ThermonukesItems.HAZMAT_SUIT_HEADPIECE, "Hazmat Suit Headpiece");
-    addItem(ThermonukesItems.HAZMAT_SUIT_COAT, "Hazmat Suit Coat");
-    addItem(ThermonukesItems.HAZMAT_SUIT_LEGGINGS, "Hazmat Suit Leggings");
-    addItem(ThermonukesItems.HAZMAT_SUIT_BOOTS, "Hazmat Suit Boots");
+    addItem(ThermonukesItems.HAZMAT_SUIT_HEADPIECE, "Hazmat Headpiece");
+    addItem(ThermonukesItems.HAZMAT_SUIT_COAT, "Hazmat Coat");
+    addItem(ThermonukesItems.HAZMAT_SUIT_LEGGINGS, "Hazmat Leggings");
+    addItem(ThermonukesItems.RUBBER_BOOTS, "Rubber Boots");
+    addItem(ThermonukesItems.GAS_MASK, "Gas Mask");
 
     addCreativeTab("main", "Thermonukes");
     addSoundSubtitle(ThermonukesSounds.ANTIMATTER_EXPLOSIVE_DETONATION, "Antimatter Explosive detonates");

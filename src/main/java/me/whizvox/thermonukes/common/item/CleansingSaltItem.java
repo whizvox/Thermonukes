@@ -23,7 +23,7 @@ import net.minecraft.world.phys.HitResult;
 public class CleansingSaltItem extends Item {
 
   public CleansingSaltItem() {
-    super(ThermonukesItems.defaultItemProperties());
+    super(ThermonukesItems.defaultProperties());
   }
 
   @Override

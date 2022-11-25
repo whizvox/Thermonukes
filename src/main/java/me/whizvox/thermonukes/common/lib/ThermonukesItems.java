@@ -4,7 +4,6 @@ import me.whizvox.thermonukes.Thermonukes;
 import me.whizvox.thermonukes.common.ThermonukesCreativeTab;
 import me.whizvox.thermonukes.common.item.CleansingSaltItem;
 import me.whizvox.thermonukes.common.item.GeigerCounterItem;
-import me.whizvox.thermonukes.common.item.HazmatSuitArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BlockItem;
@@ -26,12 +25,16 @@ public class ThermonukesItems {
     ITEMS.register(bus);
   }
 
-  public static Item.Properties defaultItemProperties() {
+  public static Item.Properties defaultProperties() {
     return new Item.Properties().tab(ThermonukesCreativeTab.INSTANCE);
   }
 
+  public static Item.Properties unstackableProperties() {
+    return defaultProperties().stacksTo(1);
+  }
+
   private static RegistryObject<Item> registerSimple(String name, Function<Item.Properties, Item.Properties> builder) {
-    return ITEMS.register(name, () -> new Item(builder.apply(defaultItemProperties())));
+    return ITEMS.register(name, () -> new Item(builder.apply(defaultProperties())));
   }
 
   private static RegistryObject<Item> registerMaterial(String name) {
@@ -44,15 +47,18 @@ public class ThermonukesItems {
 
   public static final RegistryObject<Item>
       SALTY_MIXTURE_TUBE = registerMaterial("salty_mixture_tube"),
+      ANTI_RADIATIVE_FABRIC_SHEET = registerMaterial("anti_radiative_fabric_sheet"),
+      RUBBER_SHEET = registerMaterial("rubber_sheet"),
       CLEANSING_SALT = ITEMS.register("cleansing_salt", CleansingSaltItem::new);
   public static final RegistryObject<BucketItem>
-      CLEANSING_WATER_BUCKET = ITEMS.register("cleansing_water_bucket", () -> new BucketItem(ThermonukesFluids.CLEANSING_WATER_SOURCE, defaultItemProperties().stacksTo(1)));
+      CLEANSING_WATER_BUCKET = ITEMS.register("cleansing_water_bucket", () -> new BucketItem(ThermonukesFluids.CLEANSING_WATER_SOURCE, defaultProperties().stacksTo(1)));
 
   public static final RegistryObject<ArmorItem>
-      HAZMAT_SUIT_HEADPIECE = ITEMS.register("hazmat_suit_headpiece", () -> new HazmatSuitArmorItem(EquipmentSlot.HEAD)),
-      HAZMAT_SUIT_COAT = ITEMS.register("hazmat_suit_coat", () -> new HazmatSuitArmorItem(EquipmentSlot.CHEST)),
-      HAZMAT_SUIT_LEGGINGS = ITEMS.register("hazmat_suit_leggings", () -> new HazmatSuitArmorItem(EquipmentSlot.LEGS)),
-      HAZMAT_SUIT_BOOTS = ITEMS.register("hazmat_suit_boots", () -> new HazmatSuitArmorItem(EquipmentSlot.FEET));
+      HAZMAT_SUIT_HEADPIECE = ITEMS.register("hazmat_headpiece", () -> new ArmorItem(ThermonukesArmor.HAZMAT_SUIT, EquipmentSlot.HEAD, unstackableProperties())),
+      HAZMAT_SUIT_COAT = ITEMS.register("hazmat_coat", () -> new ArmorItem(ThermonukesArmor.HAZMAT_SUIT, EquipmentSlot.CHEST, unstackableProperties())),
+      HAZMAT_SUIT_LEGGINGS = ITEMS.register("hazmat_leggings", () -> new ArmorItem(ThermonukesArmor.HAZMAT_SUIT, EquipmentSlot.LEGS, unstackableProperties())),
+      RUBBER_BOOTS = ITEMS.register("rubber_boots", () -> new ArmorItem(ThermonukesArmor.HAZMAT_SUIT, EquipmentSlot.FEET, unstackableProperties())),
+      GAS_MASK = ITEMS.register("gas_mask", () -> new ArmorItem(ThermonukesArmor.GAS_MASK, EquipmentSlot.HEAD, unstackableProperties()));
 
   public static final RegistryObject<GeigerCounterItem> GEIGER_COUNTER = ITEMS.register("geiger_counter", GeigerCounterItem::new);
 

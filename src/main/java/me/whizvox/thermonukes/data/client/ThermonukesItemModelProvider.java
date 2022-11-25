@@ -82,6 +82,13 @@ public class ThermonukesItemModelProvider extends ItemModelProvider {
     geigerCounter();
     basicItem(ThermonukesItems.SALTY_MIXTURE_TUBE);
     basicItem(ThermonukesItems.CLEANSING_SALT);
+    basicItem(ThermonukesItems.HAZMAT_SUIT_HEADPIECE);
+    basicItem(ThermonukesItems.HAZMAT_SUIT_COAT);
+    basicItem(ThermonukesItems.HAZMAT_SUIT_LEGGINGS);
+    basicItem(ThermonukesItems.RUBBER_BOOTS);
+    basicItem(ThermonukesItems.GAS_MASK);
+    //basicItem(ThermonukesItems.ANTI_RADIATIVE_FABRIC_SHEET);
+    //basicItem(ThermonukesItems.RUBBER_SHEET);
     getBuilder("item/cleansing_water_bucket")
         .parent(generatedModel())
         .texture("layer0", mcLoc("item/bucket"))

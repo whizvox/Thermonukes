@@ -1,8 +1,8 @@
 package me.whizvox.thermonukes.common.event;
 
-import me.whizvox.thermonukes.common.item.HazmatSuitArmorItem;
 import me.whizvox.thermonukes.common.lib.ThermonukesCapabilities;
 import me.whizvox.thermonukes.common.lib.ThermonukesDamageSources;
+import me.whizvox.thermonukes.common.lib.ThermonukesTags;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -27,7 +27,7 @@ public class ThermonukesWorldEvents {
             EquipmentSlot[] slots = new EquipmentSlot[] {EquipmentSlot.HEAD, EquipmentSlot.CHEST, EquipmentSlot.LEGS, EquipmentSlot.FEET};
             for (EquipmentSlot slot : slots) {
               ItemStack armor = entity.getItemBySlot(slot);
-              if (armor.getItem() instanceof HazmatSuitArmorItem) {
+              if (armor.is(ThermonukesTags.Items.HAZMAT_SUIT)) {
                 if (chunkDosage > 200_000.0F || entity.getRandom().nextInt(200_000) < chunkDosage) {
                   armor.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(slot));
                 }

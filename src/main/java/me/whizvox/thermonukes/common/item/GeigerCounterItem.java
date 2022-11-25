@@ -22,7 +22,7 @@ import net.minecraft.world.level.Level;
 public class GeigerCounterItem extends Item {
 
   public GeigerCounterItem() {
-    super(ThermonukesItems.defaultItemProperties().stacksTo(1).defaultDurability(4));
+    super(ThermonukesItems.defaultProperties().stacksTo(1).defaultDurability(4));
   }
 
   @Override
